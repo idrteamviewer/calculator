@@ -1,7 +1,8 @@
 # Sample Calculator
 
 A small command-line calculator written in Python. It supports addition,
-subtraction, multiplication, and division.
+subtraction, multiplication, and division with a dark terminal theme for
+titles, prompts, results, and errors.
 
 ## Run it
 
