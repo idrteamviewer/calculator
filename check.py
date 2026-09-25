@@ -3,6 +3,10 @@ import unittest
 from calculator import Calculator
 
 
+def main():
+	print("Hello")
+
+
 class CalculatorTests(unittest.TestCase):
 	def test_addition(self):
 		self.assertEqual(Calculator.calculate(2, "+", 3), 5)
@@ -22,4 +26,5 @@ class CalculatorTests(unittest.TestCase):
 
 
 if __name__ == "__main__":
+	main()
 	unittest.main()
